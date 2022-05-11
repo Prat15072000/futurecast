@@ -1,0 +1,201 @@
+.About {
+  font-size: 15px;
+  .imgcont {
+    padding: 10px;
+  }
+  .AboutHead {
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 30px;
+    font-family: "Raleway", sans-serif;
+  }
+
+  .head_overlay {
+    width: 30%;
+    font-family: "Poppins", sans-serif;
+    font-weight: lighter;
+    padding: 10px;
+    color: #fff;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    margin-bottom: -5px;
+    position: relative;
+    z-index: 1;
+    background-color: #e20f9c;
+  }
+  .jumbo .img_jumbo {
+    width: 40%;
+  }
+
+  .AboutRead {
+    margin: auto;
+    display: block;
+    width: 90%;
+    margin-top: 30px;
+    text-align: left;
+    background-color: #fff;
+    padding: 20px;
+  }
+
+  .about_section {
+    background-color: #44ccbc38;
+
+    text-align: left;
+  }
+  .about_section_block {
+    -webkit-box-shadow: rgba(0, 0, 0, 76%) -4px 3px 29px 1px !important;
+    -moz-box-shadow: rgba(0, 0, 0, 76%) -4px 3px 29px 1px !important;
+    box-shadow: rgba(0, 0, 0, 76%) -4px 3px 29px 1px !important;
+    background-color: #fff;
+    border: solid 2px #36beb1;
+    border-radius: 25px;
+    padding: 20px;
+    margin: 150px auto 100px auto;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    h6 {
+      margin-bottom: 30px;
+      color: #36beb1;
+      font-family: "Raleway", sans-serif;
+    }
+    h3 {
+      color: #36beb1;
+      font-family: "Montserrat", sans-serif;
+    }
+    h5 {
+      font-family: "Montserrat", sans-serif;
+    }
+    .blue_strip {
+      height: 20px;
+      background-color: #36beb1;
+      margin: 70px auto;
+    }
+    .achievebox {
+      background-color: #8edad3;
+      padding: 10px;
+      color: #fff;
+      margin-top: -120px;
+      text-align: center;
+      height: 80px;
+    }
+    .project_head {
+      background-color: #8edad3;
+      font-size: 30px;
+      color: #fff;
+      margin-bottom: 20px;
+      font-family: "Raleway", sans-serif;
+    }
+  }
+  .about_section_block:nth-child(1) {
+    transform: translateY(-80px);
+    margin-bottom: -130px;
+  }
+  .about_section_block:nth-child(3) {
+    transform: translateY(80px);
+    margin-top: -100px;
+  }
+  .Contact_Ques {
+    //margin-left: 100px;
+    margin-top: 150px;
+    p {
+      font-family: "Raleway", sans-serif;
+      font-size: 25px;
+      margin-top: 0.2rem;
+    }
+    .contactButton {
+      background-color: #e20f9c;
+      p {
+        margin-top: 0.3rem;
+        margin-bottom: 0.3rem;
+      }
+      font-size: 25px;
+      font-weight: bold;
+      margin-top: 0.3rem;
+      margin-bottom: 1.5rem;
+      margin-right: 0.8rem;
+      color: #fff;
+      font-family: "Raleway", sans-serif;
+      -webkit-box-shadow: rgba(0, 0, 0, 76%) -4px 3px 29px 1px !important;
+      -moz-box-shadow: rgba(0, 0, 0, 76%) -4px 3px 29px 1px !important;
+      box-shadow: rgba(0, 0, 0, 76%) -4px 3px 29px 1px !important;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .head_overlay {
+      width: 50%;
+    }
+    .Contact_Ques {
+      .contactButton {
+        width: 50%;
+        margin: 20px auto;
+      }
+    }
+    .jumbo .img_jumbo {
+      width: 70%;
+      margin-left: 20px;
+    }
+    .AboutHead {
+      font-size: 15px;
+    }
+    .AboutRead {
+      font-size: 13px;
+    }
+    .about_section_block {
+      font-size: 13px;
+      padding: 15px;
+      margin: 150px auto 100px auto;
+
+      .blue_strip {
+        display: none;
+      }
+      .achievebox {
+        margin: auto;
+        margin-top: 5px;
+      }
+      .project_head {
+        font-size: 30px;
+        color: #fff;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  @media (min-width: 769px) and (max-width: 992px) {
+    .contactButton {
+      width: 200px;
+      margin: auto;
+    }
+    .about_section_block {
+      img {
+        width: 60%;
+        margin: auto;
+        display: block;
+      }
+
+      font-size: 16px;
+      padding: 15px;
+      margin: 150px auto 100px auto;
+
+      .blue_strip {
+        display: none;
+      }
+      .achievebox {
+        margin: auto;
+        margin-top: 5px;
+      }
+      .project_head {
+        font-size: 30px;
+        color: #fff;
+        margin-bottom: 20px;
+      }
+    }
+    .ProjectCard {
+      width: 60%;
+      margin: auto;
+      margin-bottom: 40px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

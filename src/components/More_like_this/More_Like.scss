@@ -1,0 +1,23 @@
+.More_Like {
+  width: 90%;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  .More_like_head {
+    color: rgb(247, 81, 172);
+    font-weight: bold;
+    text-align: left;
+    margin-left: 40px;
+   font-family: 'Raleway', sans-serif;
+  }
+  hr {
+    color: rgb(165, 23, 101);
+    height: 5px;
+  }
+  .container {
+    width: 80%;
+  }
+  @media screen and (max-width: 768px) {
+    display: none;
+  }
+}

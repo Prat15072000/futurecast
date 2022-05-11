@@ -1,0 +1,149 @@
+.Footer {
+  overflow-x: hidden;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  font-weight: lighter;
+  color: #fff;
+  background-color: #666ba5;
+  padding: 15px;
+  text-align: left;
+
+  .fotimg {
+    position: absolute;
+    width: 350px;
+    right: 0;
+    opacity: 0.8;
+  }
+  .para_sec {
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+  }
+  .form {
+    width: 100%;
+    margin: auto;
+    font-size: 15px;
+    ul {
+      margin-top: 20px;
+      padding-left: 25%;
+      display: flex;
+      li {
+        margin: 0px 50px;
+      }
+    }
+  }
+  .Support_section {
+    -webkit-box-shadow: rgba(0, 0, 0, 20%) 0px 4px 8px 0px !important;
+    -moz-box-shadow: rgba(0, 0, 0, 20%) 0px 4px 8px 0px !important;
+    box-shadow: rgba(0, 0, 0, 20%) 0px 4px 8px 0px !important;
+    background-color: #ffffffad;
+    font-family: "Raleway", sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    padding: 10px;
+    color: #000;
+    border-radius: 6px;
+    display: flex;
+
+    width: 100%;
+    margin: auto;
+    p {
+      display: inline-flex;
+    }
+    p:nth-child(1) {
+      margin: 0.5rem;
+      margin-top: 0.7rem;
+    }
+    p:nth-child(2) {
+      background-color: #e20f9c;
+      color: #fff;
+      padding: 10px;
+      border-radius: 6px;
+      margin-left: auto;
+      display: inline-block;
+      margin-bottom: 0;
+    }
+  }
+  h3 {
+    text-align: center;
+  }
+  .FooterLink {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+  }
+  .media-icons {
+    margin-top: 20px;
+    display: flex;
+    
+  }
+  .media-icons a {
+    height: 30px;
+    width: 30px;
+    margin: 0 8px;
+  //  border-radius: 10px;
+    text-align: center;
+    line-height: 30px;
+    color: white;
+   // background-color: #fff;
+    font-size: 25px;
+    text-decoration: none;
+    transition: all 0.4s ease;
+  }
+  .media-icons a:nth-child(1) {
+    line-height: 40px;
+  }
+  .media-icons a:nth-child(3),
+  .media-icons a:nth-child(5) {
+    background-color: #666ba5;
+    color: white;
+    font-size: 35px;
+  }
+  @media screen and (max-width: 992px) {
+    .para {
+    }
+    .FooterLink {
+      display: inline-block;
+      width: 50%;
+      margin-top: 10px;
+    }
+    .media-icons {
+      margin: 20px auto;
+      align-items: center;
+      justify-content: center;
+    }
+    .Support_section {
+      width: 100%;
+      margin-top: 10px;
+      font-size: 10px;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+    img {
+      display: none;
+    }
+    .form {
+      width: 100%;
+      font-size: 10px;
+      text-align: center;
+      ul {
+        display: block;
+        padding: 10px;
+        p {
+          display: block;
+          width: 100%;
+        }
+        li {
+          margin: auto;
+          display: inline-block;
+          width: 40%;
+          a {
+            width: 100%;
+          }
+          list-style-type: none;
+        }
+      }
+    }
+  }
+}

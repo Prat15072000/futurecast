@@ -1,0 +1,73 @@
+.Support {
+  .head_overlay {
+    width: 30%;
+    color: #fff;
+    padding: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    margin-bottom: -5px;
+    position: relative;
+    h3 {
+     font-family: 'Raleway', sans-serif;
+    }
+    p {
+      font-family: 'Raleway', sans-serif;
+    }
+    z-index: 1;
+    text-align: left;
+    background-color: #e20f9c;
+  }
+  .jumbo {
+    .img_jumbo {
+      margin-left: 37%;
+      width: 25%;
+      margin-top: 10%;
+      bottom: auto;
+    }
+    margin-bottom: 120px;
+  }
+  .container {
+    div {
+      min-height: 300px;
+    }
+    .row {
+      margin: 20px auto;
+    }
+    .red {
+      background-color: red;
+    }
+    .green {
+      background-color: green;
+    }
+    .blue {
+      background-color: blue;
+    }
+    .orange {
+      background-color: orange;
+    }
+  }
+  .Ad_Box {
+    margin-bottom: 10px;
+    margin-top: 20px;
+  }
+  @media screen and (max-width: 768px) {
+    .head_overlay {
+      width: 80% !important;
+    }
+    .jumbo {
+      margin-bottom: 30px;
+      .img_jumbo {
+        margin-left: 5%;
+        width: 50%;
+        margin-top: 10%;
+      }
+    }
+  }
+  @media (min-width: 769px) and (max-width: 992px) {
+    .jumbo .img_jumbo {
+      width: 40%;
+      margin-left: 28%;
+    }
+  }
+}

@@ -1,0 +1,194 @@
+.Contact {
+  .head_overlay {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    width: 30%;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: -5px;
+    position: relative;
+    z-index: 1;
+    background-color: #e20f9c;
+    border-radius: 3px;
+  }
+  .jumbo .img_jumbo {
+    margin-top: 10%;
+    width: 40%;
+  }
+  .Contact_section {
+    background-color: #44ccbd8c;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    .main_contact {
+      width: 60%;
+      border-radius: 10px;
+      background-color: #44ccbd;
+      padding: 25px;
+    }
+    .images {
+      display: block;
+      margin-left: 200px;
+      margin-top: -200px;
+      height: 50%;
+      width: 37%;
+      opacity: 0.5;
+    }
+    .form-detail {
+      padding: 20px 40px;
+      position: relative;
+      width: 100%;
+    }
+
+    .form-detail h2 {
+      color: white;
+      margin-bottom: 20px;
+     font-family: 'Raleway', sans-serif;
+    }
+    .form-detail .form-group {
+      display: flex;
+      display: -webkit-flex;
+      margin: 0 -8px;
+    }
+    .form-detail .form-row {
+      width: 100%;
+      position: relative;
+      font-family: 'Raleway', sans-serif;
+      font-size: medium;
+      font-weight: bolder;
+    }
+    .form-detail .form-group .form-row.form-row-1 {
+      width: 50%;
+      padding: 0 8px;
+    }
+    .form-detail label {
+      font-weight: 600;
+      font-size: 15px;
+      color: #666;
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    .form-detail .input-text {
+      margin-bottom: 37px;
+    }
+    .form-detail input[type="text"],
+    .form-detail input[type="email"] {
+      width: 100%;
+      padding: 9px 10px;
+      border: 1px solid #e5e5e5;
+      border-radius: 10px;
+      box-shadow: 5px 5px 30px;
+      appearance: unset;
+
+      -webkit-appearance: unset;
+      -o-appearance: unset;
+      -ms-appearance: unset;
+      outline: none;
+      -moz-outline: none;
+      -webkit-outline: none;
+      -o-outline: none;
+      -ms-outline: none;
+      font-size: 15px;
+      color: #333;
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -o-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+    }
+    .form-detail .form-row input:focus {
+      border: 1px solid blue;
+    }
+    .button3 {
+      border: solid 0.5px transparent;
+      color: white;
+      background-color: #e20f9c;
+      font-family: 'Raleway', sans-serif;
+      font-weight: bold;
+      font-size: 30px;
+      margin: auto;
+      display: block;
+      padding: 8px;
+      text-align: center;
+      cursor: pointer;
+      font-size: 22px;
+      border-radius: 10px;
+      width: 50%;
+      box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+    }
+
+    .button3:hover {
+      color: #e20f9c;
+      background-color: white;
+      border: solid 2px #e20f9c;
+      text-decoration: none;
+    }
+
+    .form-detail .textarea {
+      width: 100%;
+      padding: 12px 20px;
+      box-sizing: border-box;
+      border: 1px solid #e5e5e5;
+      border-radius: 10px;
+      box-shadow: 5px 5px 30px;
+      font-size: 16px;
+      resize: none;
+
+      margin-bottom: 20px;
+      font-size: 1.2em;
+    }
+
+    .desc {
+      background-color: #44ccbd;
+      text-align: left;
+      margin-top: 100px;
+      h2 {
+       font-family: 'Raleway', sans-serif;
+       font-weight: bold;
+      }
+      p {
+        margin-top: 10px;
+        font-family: 'Montserrat', sans-serif;
+      }
+      h4 {
+        margin-top: 20px;
+        font-family: 'Raleway', sans-serif;
+        color: white;
+      }
+    }
+    @media screen and (max-width: 767px) {
+      .form-detail .form-group {
+        display: block;
+        .form-row.form-row-1 {
+          width: 100%;
+          padding: 0 8px;
+        }
+      }
+      .main_contact {
+        width: 100%;
+      }
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .head_overlay {
+      width: 50%;
+    }
+    .jumbo .img_jumbo {
+      width: 70%;
+      margin-left: 20px;
+    }
+    .Contact_section_info {
+      font-size: 20px;
+      p {
+        text-align: center;
+      }
+    }
+    .contact_form {
+      .contact_form_head {
+        font-size: 20px;
+      }
+    }
+  }
+}

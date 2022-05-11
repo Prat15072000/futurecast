@@ -1,0 +1,64 @@
+.Privacy {
+  .PrivacyHead {
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 100px;
+  }
+  .head_overlay {
+    width: 30%;
+    color: #fff;
+    padding: 10px;
+   font-family: 'Raleway', sans-serif;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    margin-bottom: -5px;
+    position: relative;
+    z-index: 1;
+    background-color: #e20f9c;
+  }
+  .jumbo .img_jumbo {
+    margin-top: 0%;
+    margin-left: 43%;
+    width: 20%;
+  }
+
+  .PrivacyRead {
+    margin: auto;
+    display: inline-flex;
+    width: 90%;
+    margin-top: 30px;
+  }
+  .Policy-Heading {
+    margin-left: 10px;
+    margin-top: 30px;
+    float: left;
+    //position: relative;
+    //display: inline-block;
+  }
+  @media screen and (max-width: 768px) {
+    .jumbo .img_jumbo {
+      margin-left: 15%;
+    }
+    .head_overlay {
+      width: 50%;
+    }
+    .PrivacyHead {
+      text-align: center;
+      margin: auto;
+    }
+    .PrivacyRead {
+      margin-bottom: 40px;
+    }
+  }
+  @media (min-width: 769px) and (max-width: 992px) {
+    .ProjectCard {
+      width: 60%;
+      margin: auto;
+      margin-bottom: 40px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

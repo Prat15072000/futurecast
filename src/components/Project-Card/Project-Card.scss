@@ -1,0 +1,37 @@
+.ProjectCard {
+  //background-color: transparent;
+  box-shadow: black -4px 3px 20px 1px !important;
+  border-radius: 5px;
+  font-family: "Raleway", sans-serif;
+  a,
+  a:hover {
+    text-decoration: none;
+    color: #fff;
+  }
+  .card-img,
+  .card-img-top {
+    border-radius: 5px 5px 0 0;
+  }
+  .bg {
+    background-color: #36beb1 !important;
+    // color: #fff;
+  }
+  .card-title {
+    text-align: center;
+    width: 80%;
+    border-radius: 2px;
+    margin: auto;
+    background-color: #e20f9c;
+    padding: 5px;
+    transform: translateY(-30px);
+    margin-bottom: 0.25rem;
+    font-family: "Raleway", sans-serif;
+  }
+  .card-text {
+    display: none;
+  }
+  margin-bottom: 10px;
+  @media (min-width: 769px) and (max-width: 992px) {
+    margin-bottom: 30px;
+  }
+}

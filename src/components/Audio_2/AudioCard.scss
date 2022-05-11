@@ -1,0 +1,54 @@
+.AudioCard2 {
+  margin-top: 30px;
+  .ltime {
+    text-align: left;
+  }
+  .rtime {
+    text-align: right;
+  }
+  .immusic {
+    width: calc((80% / 16));
+    margin-left: calc((20% / 32));
+    margin-right: calc((20% / 32));
+  }
+  i {
+    color: #e20f9c;
+    font-size: 50px;
+    margin: 40px auto;
+  }
+  .slider {
+    border: solid 1px transparent;
+    border-radius: 8px;
+    height: 7px;
+    width: 100%;
+    outline: none;
+
+    -webkit-appearance: none;
+  }
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 7px;
+    height: 7px;
+    background: #e20f9c;
+    cursor: pointer;
+    border-radius: 100%;
+  }
+
+  .slider::-moz-range-thumb {
+    width: 7px;
+    height: 7px;
+    background: #e20f9c;
+    cursor: pointer;
+    border-radius: 100%;
+  }
+  @media screen and (max-width: 768px) {
+    margin-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    i {
+      margin-bottom: 20px;
+      font-size: 30px;
+    }
+  }
+}

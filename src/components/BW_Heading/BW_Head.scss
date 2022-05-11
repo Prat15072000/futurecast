@@ -1,0 +1,26 @@
+.BW_Head {
+  font-size: 70px;
+ font-family: 'Raleway', sans-serif;
+  margin-top: 50px;
+  p {
+    display: inline-block;
+  }
+  .t1 {
+    color: #fff;
+    background-color: black;
+    width: 50%;
+  }
+  .ri {
+    text-align: right;
+  }
+  .le {
+    text-align: left;
+  }
+  .t2 {
+    width: 50%;
+  }
+  @media screen and (max-width: 767px) {
+    font-size: 35px;
+    padding: 3px 0px;
+  }
+}

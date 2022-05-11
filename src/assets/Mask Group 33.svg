@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="177" viewBox="0 0 1920 177">
+  <defs>
+    <filter id="Rectangle_306" x="-30" y="-22" width="1980" height="237" filterUnits="userSpaceOnUse">
+      <feOffset dy="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#00615b" flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_306)">
+        <rect id="Rectangle_306-2" data-name="Rectangle 306" width="1920" height="177" transform="translate(-12247 -3764)" fill="#fff"/>
+      </g>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_33" data-name="Mask Group 33" transform="translate(12247 3764)" clip-path="url(#clip-path)">
+    <g id="Group_151" data-name="Group 151" transform="translate(35 -101)">
+      <g id="Ellipse_215" data-name="Ellipse 215" transform="translate(-11807 -3605)" fill="none" stroke="#41c9bb" stroke-width="1">
+        <circle cx="83.5" cy="83.5" r="83.5" stroke="none"/>
+        <circle cx="83.5" cy="83.5" r="83" fill="none"/>
+      </g>
+      <g id="Ellipse_218" data-name="Ellipse 218" transform="translate(-11802 -3600)" fill="none" stroke="#41c9bb" stroke-width="1">
+        <circle cx="78.5" cy="78.5" r="78.5" stroke="none"/>
+        <circle cx="78.5" cy="78.5" r="78" fill="none"/>
+      </g>
+      <g id="Ellipse_216" data-name="Ellipse 216" transform="translate(-11788 -3586)" fill="none" stroke="#41c9bb" stroke-width="1">
+        <circle cx="65" cy="65" r="65" stroke="none"/>
+        <circle cx="65" cy="65" r="64.5" fill="none"/>
+      </g>
+      <g id="Ellipse_217" data-name="Ellipse 217" transform="translate(-11774 -3572)" fill="none" stroke="#41c9bb" stroke-width="1">
+        <circle cx="51.5" cy="51.5" r="51.5" stroke="none"/>
+        <circle cx="51.5" cy="51.5" r="51" fill="none"/>
+      </g>
+    </g>
+    <g id="Group_152" data-name="Group 152" transform="translate(437 -203)">
+      <g id="Ellipse_215-2" data-name="Ellipse 215" transform="translate(-11807 -3605)" fill="none" stroke="#41c9bb" stroke-width="1">
+        <circle cx="134.5" cy="134.5" r="134.5" stroke="none"/>
+        <circle cx="134.5" cy="134.5" r="134" fill="none"/>
+      </g>
+      <g id="Ellipse_218-2" data-name="Ellipse 218" transform="translate(-11799 -3597)" fill="none" stroke="#41c9bb" stroke-width="1">
+        <circle cx="126.5" cy="126.5" r="126.5" stroke="none"/>
+        <circle cx="126.5" cy="126.5" r="126" fill="none"/>
+      </g>
+      <g id="Ellipse_216-2" data-name="Ellipse 216" transform="translate(-11776 -3574)" fill="none" stroke="#41c9bb" stroke-width="1">
+        <circle cx="104.5" cy="104.5" r="104.5" stroke="none"/>
+        <circle cx="104.5" cy="104.5" r="104" fill="none"/>
+      </g>
+      <g id="Ellipse_217-2" data-name="Ellipse 217" transform="translate(-11754 -3552)" fill="none" stroke="#41c9bb" stroke-width="1">
+        <circle cx="83" cy="83" r="83" stroke="none"/>
+        <circle cx="83" cy="83" r="82.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Group_153" data-name="Group 153" transform="translate(1040.8 -45.2)">
+      <g id="Ellipse_215-3" data-name="Ellipse 215" transform="translate(-11806.8 -3604.8)" fill="none" stroke="#41c9bb" stroke-width="1">
+        <circle cx="114.5" cy="114.5" r="114.5" stroke="none"/>
+        <circle cx="114.5" cy="114.5" r="114" fill="none"/>
+      </g>
+      <g id="Ellipse_218-3" data-name="Ellipse 218" transform="translate(-11800.8 -3598.8)" fill="none" stroke="#41c9bb" stroke-width="1">
+        <circle cx="108.5" cy="108.5" r="108.5" stroke="none"/>
+        <circle cx="108.5" cy="108.5" r="108" fill="none"/>
+      </g>
+      <g id="Ellipse_216-3" data-name="Ellipse 216" transform="translate(-11780.8 -3578.8)" fill="none" stroke="#41c9bb" stroke-width="1">
+        <circle cx="88.5" cy="88.5" r="88.5" stroke="none"/>
+        <circle cx="88.5" cy="88.5" r="88" fill="none"/>
+      </g>
+      <g id="Ellipse_217-3" data-name="Ellipse 217" transform="translate(-11761.8 -3559.8)" fill="none" stroke="#41c9bb" stroke-width="1">
+        <circle cx="71" cy="71" r="71" stroke="none"/>
+        <circle cx="71" cy="71" r="70.5" fill="none"/>
+      </g>
+    </g>
+    <g id="Group_154" data-name="Group 154" transform="translate(1250.8 -311.2)">
+      <g id="Ellipse_215-4" data-name="Ellipse 215" transform="translate(-11806.8 -3604.8)" fill="none" stroke="#41c9bb" stroke-width="1">
+        <circle cx="128" cy="128" r="128" stroke="none"/>
+        <circle cx="128" cy="128" r="127.5" fill="none"/>
+      </g>
+      <g id="Ellipse_218-4" data-name="Ellipse 218" transform="translate(-11799.8 -3597.8)" fill="none" stroke="#41c9bb" stroke-width="1">
+        <circle cx="121" cy="121" r="121" stroke="none"/>
+        <circle cx="121" cy="121" r="120.5" fill="none"/>
+      </g>
+      <g id="Ellipse_216-4" data-name="Ellipse 216" transform="translate(-11777.8 -3575.8)" fill="none" stroke="#41c9bb" stroke-width="1">
+        <circle cx="99" cy="99" r="99" stroke="none"/>
+        <circle cx="99" cy="99" r="98.5" fill="none"/>
+      </g>
+      <g id="Ellipse_217-4" data-name="Ellipse 217" transform="translate(-11756.8 -3554.8)" fill="none" stroke="#41c9bb" stroke-width="1">
+        <circle cx="79.5" cy="79.5" r="79.5" stroke="none"/>
+        <circle cx="79.5" cy="79.5" r="79" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

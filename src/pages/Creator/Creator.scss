@@ -1,0 +1,166 @@
+.Creator {
+  .head_overlay {
+    width: 30%;
+    color: #fff;
+    padding: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    margin-bottom: -5px;
+    position: relative;
+    z-index: 1;
+   font-family: 'Raleway', sans-serif;
+    background-color: #e20f9c;
+  }
+  .jumbo .img_jumbo {
+    margin-top: 8%;
+  }
+  .bgk {
+    background-color: #44ccc738;
+
+    margin-top: 50px;
+    .Creator_form {
+      width: 50%;
+      margin: auto;
+      display: block;
+      .form-detail {
+        padding: 20px 40px;
+        position: relative;
+        width: 100%;
+      }
+
+      .form-detail h2 {
+        color: rgb(0, 0, 0);
+        margin-bottom: 20px;
+       font-family: 'Raleway', sans-serif;
+      }
+      .form-detail .form-group {
+        display: flex;
+        display: -webkit-flex;
+        margin: 0 -8px;
+      }
+      .form-detail .form-row {
+        width: 100%;
+        position: relative;
+      }
+      .form-detail .form-group .form-row.form-row-1 {
+        width: 50%;
+        padding: 0 8px;
+      }
+      .form-detail label {
+        font-weight: 600;
+        font-size: 15px;
+        color: #666;
+        display: block;
+        margin-bottom: 8px;
+      }
+
+      .form-detail .input-text {
+        margin-bottom: 37px;
+      }
+      .form-detail input[type="text"],
+      .form-detail input[type="email"] {
+        width: 100%;
+        padding: 9px 10px;
+        border: 1px solid #e5e5e5;
+        border-radius: 10px;
+        box-shadow: 5px 5px 30px;
+        appearance: unset;
+
+        -webkit-appearance: unset;
+        -o-appearance: unset;
+        -ms-appearance: unset;
+        outline: none;
+        -moz-outline: none;
+        -webkit-outline: none;
+        -o-outline: none;
+        -ms-outline: none;
+        font-size: 15px;
+        color: #333;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+      }
+      .form-detail .form-row input:focus {
+        border: 1px solid blue;
+      }
+      .button3 {
+        border: solid 2px transparent;
+        color: white;
+        background-color: #e20f9c;
+        margin: auto;
+        display: block;
+        padding: 10px;
+        text-align: center;
+        cursor: pointer;
+        font-size: 22px;
+        border-radius: 20px;
+        width: 30%;
+        box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
+      }
+
+      .button3:hover {
+        color: #e20f9c;
+        background-color: white;
+        border: solid 2px #e20f9c;
+        text-decoration: none;
+      }
+
+      .form-detail .textarea {
+        width: 100%;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 1px solid #e5e5e5;
+        border-radius: 10px;
+        box-shadow: 5px 5px 30px;
+        font-size: 16px;
+        resize: none;
+
+        margin-bottom: 20px;
+        font-size: 1.2em;
+      }
+      @media screen and (max-width: 767px) {
+        width: 100%;
+        .button3 {
+          width: 60%;
+        }
+        .form-detail .form-group {
+          display: block;
+          .form-row.form-row-1 {
+            width: 100%;
+            padding: 0 8px;
+          }
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .jumbo .img_jumbo {
+      margin-left: 27px;
+    }
+    .head_overlay {
+      width: 50%;
+    }
+    .bg {
+      .Creator_form {
+        width: 90%;
+        .Creator_form_foot {
+          width: 120px;
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  @media (min-width: 769px) and (max-width: 992px) {
+    .ProjectCard {
+      width: 60%;
+      margin: auto;
+      margin-bottom: 40px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}

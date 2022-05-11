@@ -1,0 +1,11 @@
+.blue_section {
+  background-color: #44ccbd;
+  opacity: 0.22;
+  min-height: 250px;
+  position: relative;
+  margin-top: -200px;
+  z-index: 0;
+  @media screen and (max-width: 767px) {
+    min-height: 300px;
+  }
+}

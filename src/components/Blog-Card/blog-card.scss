@@ -1,0 +1,73 @@
+.blog-card {
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  z-index: 1;
+  a,
+  a:hover {
+    text-decoration: none;
+    color: #000;
+  }
+  .para_pod_main {
+    background-color: #fff;
+    -webkit-box-shadow: rgba(0, 0, 0, 76%) -4px 3px 29px 1px !important;
+    -moz-box-shadow: rgba(0, 0, 0, 76%) -4px 3px 29px 1px !important;
+    box-shadow: rgba(0, 0, 0, 76%) -4px 3px 29px 1px !important;
+    border-radius: 5px;
+  }
+  .para_pod {
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 6px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  .para_pod_blue {
+    color: #fff;
+    text-align: center;
+    margin-left: -100px;
+    margin-bottom: 20px;
+    background-color: #44ccbd;
+    font-family: 'Raleway', sans-serif;
+    .headcard {
+      font-weight: bold;
+      margin-bottom: 0px;
+      font-size: 30px;
+      font-family: 'Raleway', sans-serif;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    font-size: 14px;
+    .para_pod_main {
+      padding: 15px;
+    }
+    .para_pod_blue {
+      margin: auto;
+      margin-bottom: 20px;
+      .headcard {
+        padding: 5px;
+        font-size: 20px;
+      }
+    }
+  }
+  @media (min-width: 769px) and (max-width: 992px) {
+    .para_pod_main {
+      padding: 30px;
+    }
+    .para_pod_blue {
+      color: #fff;
+      text-align: center;
+      margin-left: 0px;
+      margin-bottom: 20px;
+      background-color: #44ccbd;
+      .headcard {
+        font-weight: bold;
+        margin-bottom: 0px;
+        font-size: 30px;
+        font-family: 'Raleway', sans-serif;
+      }
+    }
+  }
+}

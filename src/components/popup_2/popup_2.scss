@@ -1,0 +1,36 @@
+.modal2 {
+  background-color: rgba(40, 36, 61, 0.418);
+  .modal-header {
+    background-color: #e20f9c;
+    color: white;
+    padding: 0px 5px;
+  }
+  .close {
+    color: #fff;
+    opacity: 1;
+    margin-right: 20px;
+    font-size: 50px;
+    font-weight: 10;
+    background-color: #e20f9c;
+    padding: 1px;
+    // height: 15px;
+  }
+  .close:hover {
+    color: #fff;
+    opacity: 1;
+  }
+  .modal-body {
+    height: 100px;
+
+    p {
+      margin-top: 20px;
+    }
+  }
+  .modal-title {
+    margin-top: 5px;
+    background-color: #e20f9c;
+  }
+  @media (max-width: 767px) {
+    height: 100%;
+  }
+}

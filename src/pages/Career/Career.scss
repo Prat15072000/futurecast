@@ -1,0 +1,73 @@
+.Career {
+  .CareerHead {
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+  }
+
+  .head_overlay {
+    width: 30%;
+   font-family: 'Raleway', sans-serif;
+   font-weight: bolder;
+    padding: 10px;
+    color: #fff;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    margin-bottom: -5px;
+    position: relative;
+    z-index: 1;
+    background-color: #e20f9c;
+  }
+  .jumbo .img_jumbo {
+    margin-top: 8%;
+  }
+
+  .CareerRead {
+    margin: auto;
+    display: block;
+    width: 90%;
+    margin-top: 30px;
+    text-align: left;
+    background-color: #fff;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .acknowledgement {
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #36beb1;
+    box-shadow: rgba(0, 0, 0, 76%) -4px 3px 29px 1px !important;
+    font-family: 'Montserrat', sans-serif;
+    h4 {
+      font-family: 'Raleway', sans-serif;
+      font-weight: bolder;
+    }
+    h7 {
+      a,
+      a:hover {
+        color: #111;
+        text-decoration: none;
+      }
+    }
+  }
+  @media screen and (max-width: 767px) {
+    .jumbo .img_jumbo {
+      margin-left: 27px;
+    }
+    .CareerHead {
+      text-align: center;
+      margin: auto;
+      padding: 5px;
+      margin-top: -10px;
+    }
+  }
+}

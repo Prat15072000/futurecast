@@ -1,0 +1,87 @@
+.Swag {
+  .head_overlay {
+    width: 30%;
+   font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    color: #fff;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    margin-bottom: -5px;
+    position: relative;
+    z-index: 1;
+    background-color: #e20f9c;
+  }
+  .SwagRead {
+    margin: auto;
+    display: block;
+    width: 90%;
+    margin-top: 70px;
+    text-align: left;
+  }
+  .jumbo .img_jumbo {
+    margin-top: 8%;
+  }
+  .Swag_section {
+    background-color: #98e3db;
+    margin-bottom: 300px;
+    .Swag_section_p {
+      width: 80%;
+      margin: auto;
+      margin-top: 50px;
+      text-align: left;
+      padding: 20px;
+      color: #fff;
+      p {
+        background-color: #fff;
+        color: #656ea5;
+        font-size: 30px;
+        margin: auto;
+        text-align: center;
+        transform: translateY(-40px);
+        border: solid 2px #98e3db;
+        width: 50%;
+        font-family: 'Raleway', sans-serif;
+        -webkit-box-shadow: rgba(0, 0, 0, 76%) -4px 3px 29px 1px !important;
+        -moz-box-shadow: rgba(0, 0, 0, 76%) -4px 3px 29px 1px !important;
+        box-shadow: rgba(0, 0, 0, 76%) -4px 3px 29px 1px !important;
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .SwagRead {
+      margin-top: 0px;
+    }
+    .jumbo .img_jumbo {
+      margin-left: 27px;
+      margin-top: 10%;
+    }
+    .Swag_section {
+      margin-bottom: 300px;
+      .Swag_section_p {
+        p {
+          width: 100%;
+          font-size: 1.4em;
+        }
+      }
+    }
+  }
+  @media (min-width: 769px) and (max-width: 992px) {
+    .ProjectCard {
+      width: 60%;
+      margin: auto;
+      margin-bottom: 40px;
+      img {
+        width: 100%;
+      }
+    }
+    .Swag_section {
+      .Swag_section_p {
+        p {
+          width: 80%;
+          font-size: 1.6em;
+        }
+      }
+    }
+  }
+}

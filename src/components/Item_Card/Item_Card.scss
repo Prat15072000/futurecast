@@ -1,0 +1,19 @@
+.Item_Card {
+  border: solid 1px rgb(0, 0, 0);
+  margin-top: 20px;
+
+  .PodcastHead {
+    margin: auto;
+    width: 80%;
+    background-color: #44ccbd;
+    padding: 10px;
+    h3 {
+      font-family: 'Raleway', sans-serif;
+    }
+    color: #fff;
+    transform: translateY(-50px);
+  }
+  @media screen and (max-width: 767px) {
+    font-size: 13px;
+  }
+}

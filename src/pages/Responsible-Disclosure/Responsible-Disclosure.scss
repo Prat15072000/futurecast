@@ -1,0 +1,109 @@
+.BugBounty {
+  .BugBountyHead {
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 30px;
+    font-size: 40px;
+   font-family: 'Raleway', sans-serif;
+   font-weight: bold;
+  }
+  .BugBountyHead_2 {
+    color: #44ccbd;
+    text-align: left;
+    margin-left: 5%;
+    margin-top: 30px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    font-size: 20px;
+  }
+  .head_overlay {
+    width: 30%;
+    color: #fff;
+    padding: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    margin-bottom: -5px;
+    position: relative;
+   font-family: 'Raleway', sans-serif;
+   font-weight: bolder;
+   font-size: 20px;
+    z-index: 1;
+    background-color: #e20f9c;
+  }
+  .jumbo .img_jumbo {
+    margin-top: 8%;
+    margin-left: 35%;
+    width: 40%;
+  }
+
+  .BugBountyRead {
+    margin: auto;
+    display: block;
+    width: 90%;
+    margin-top: 30px;
+    text-align: left;
+    background-color: #fff;
+    padding: 20px;
+    font-family: 'Raleway', sans-serif;
+  }
+
+  .blue {
+    background-color: #44ccbd38;
+  }
+  .acknowledgement {
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 50px;
+    background-color: #44ccbd;
+    h3 {
+      background-color: #e20f9c;
+      width: 80%;
+      font-family: 'Raleway', sans-serif;
+      margin: auto;
+
+      padding: 10px;
+      transform: translateY(-25px);
+    }
+    li {
+      text-align: center;
+      width: 20%;
+      margin: auto;
+    }
+    p{
+      font-family: 'Raleway', sans-serif;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .head_overlay {
+      width: 80% !important;
+    }
+    .jumbo .img_jumbo {
+      margin-left: 15%;
+      width: 50%;
+      margin-top: 10%;
+    }
+    .acknowledgement {
+      li {
+        width: 50%;
+      }
+    }
+    .BugBountyHead {
+      margin: auto;
+      text-align: center;
+    }
+  }
+  @media (min-width: 769px) and (max-width: 992px) {
+    .ProjectCard {
+      width: 60%;
+      margin: auto;
+      margin-bottom: 40px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
