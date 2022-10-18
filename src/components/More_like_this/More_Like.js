@@ -4,20 +4,16 @@ import { Col, Container, Row } from "react-bootstrap";
 import data from "../../data/blog.data";
 import ProjectCard from "../Project-Card/Project-Card";
 
-const More_Like = ({ check }) => {
+const More_Like = () => {
   const arr = [];
   while (arr.length < 3) {
-    var candidateInt = Math.floor(Math.random() * 6);
+    var candidateInt = Math.floor(Math.random() * 7);
     console.log(candidateInt);
-    if (arr.indexOf(candidateInt) === -1) arr.push(candidateInt);
+    if (arr.indexOf(candidateInt) === -1) {arr.push(candidateInt); console.log("This if block got excuted")};
   }
   return (
     <div className="More_Like">
-      {check ? (
-        <h3 className="More_like_head">More Like this.</h3>
-      ) : (
-        <h3 className="More_like_head">Read Some of our Blogs</h3>
-      )}
+       <h3 className="More_like_head">Read Some of our Blogs</h3>
       <hr />
       <Container fluid>
         <Row>
@@ -32,6 +28,7 @@ const More_Like = ({ check }) => {
           <Col lg={3}>
             <ProjectCard data={data.items[arr[2]]} />
           </Col>
+          
         </Row>
       </Container>
     </div>
